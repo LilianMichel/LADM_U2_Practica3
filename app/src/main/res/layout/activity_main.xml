@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/fondo4"
+    tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="110dp"
+            android:layout_height="115dp"
+            android:background="@drawable/mujer"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="140dp">
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="110dp"
+            android:layout_height="115dp"
+            android:layout_marginTop="290dp"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/hombre01"
+            android:orientation="horizontal"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="110dp"
+            android:layout_height="115dp"
+            android:background="@drawable/mujer01"
+            android:orientation="horizontal"
+            android:layout_marginTop="550dp"
+            android:layout_marginLeft="-240dp"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="110dp"
+            android:layout_height="115dp"
+            android:layout_marginLeft="-295dp"
+            android:layout_marginTop="290dp"
+            android:background="@drawable/hombre"
+            android:orientation="horizontal"></LinearLayout>
+    //NAME JUGADORES
+
+    <TextView
+        android:id="@+id/j1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="105dp"
+        android:text="JUGADOR 1"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20dp"></TextView>
+
+    <TextView
+        android:id="@+id/j2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="400dp"
+        android:text="JUGADOR 2"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20dp"></TextView>
+
+    <TextView
+        android:id="@+id/j3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-220dp"
+        android:layout_marginTop="660dp"
+        android:text="JUGADOR 3"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20dp"></TextView>
+
+    <TextView
+        android:id="@+id/j4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-285dp"
+        android:layout_marginTop="400dp"
+        android:text="JUGADOR 4"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20dp"></TextView>
+
+        //PUNTOS
+
+    <TextView
+        android:id="@+id/ptsj1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="125dp"
+        android:text="PUNTOS: 0"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20dp"></TextView>
+
+    <TextView
+        android:id="@+id/ptsj2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="420dp"
+        android:text="PUNTOS: "
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20dp"></TextView>
+
+    <TextView
+        android:id="@+id/ptsj3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-200dp"
+        android:layout_marginTop="678dp"
+        android:text="PUNTOS: "
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20dp"></TextView>
+
+    <TextView
+        android:id="@+id/ptsj4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-260dp"
+        android:layout_marginTop="420dp"
+        android:text="PUNTOS: "
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20dp"></TextView>
+        //PUNTOS
+
+    <TextView
+        android:id="@+id/ej1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="145dp"
+        android:text="EN ESPERA"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20dp"></TextView>
+
+    <TextView
+        android:id="@+id/ej2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="440dp"
+        android:text="EN ESPERA"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20dp"></TextView>
+
+    <TextView
+        android:id="@+id/ej4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-395dp"
+        android:layout_marginTop="440dp"
+        android:text="EN ESPERA"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20dp"></TextView>
+
+    <TextView
+        android:id="@+id/ej3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="695dp"
+        android:text="EN ESPERA"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20dp"></TextView>
+
+    <Button
+    android:id="@+id/button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="-150dp"
+    android:layout_marginTop="200dp"
+    android:background="@color/colorPrimaryDark"
+    android:text="COMENZAR"
+        android:textSize="30dp"
+    android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/finjuego"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-185dp"
+        android:layout_marginTop="495dp"
+        android:text="DADOS EN JUEGO"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="25dp"></TextView>
+
+    <ImageView
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-180dp"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/uno"
+        android:orientation="horizontal"
+        android:id="@+id/dadouno"></ImageView>
+
+    <ImageView
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/dos"
+        android:orientation="horizontal"
+        android:id="@+id/dadodos"></ImageView>
+
+
+</LinearLayout>
